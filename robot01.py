@@ -36,6 +36,6 @@ while 1:
   d1 = a1.recvfrom(6144)
   actuatordata1 = d1[0]
   actuatoraddr1 = d1[1]
-  videostream.applicationlayer(actuatordata1)
+  #videostream.applicationlayer(actuatordata1)
   print 'robot : received actuator data 1'
 
